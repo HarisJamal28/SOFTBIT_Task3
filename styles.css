@@ -690,6 +690,9 @@ main #Skills article aside ul li div:hover {
   body main #Skills .duration {
     font-size: small;
   }
+  body main .details p {
+    font-size: 0.6em;
+  }
   body main .details .name h2 {
     font-size: 0.2em;
   }
