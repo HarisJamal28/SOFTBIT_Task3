@@ -700,7 +700,7 @@ main #Skills article aside ul li div:hover {
   }
   body main #Work {
     width: 100%;
-    padding: 0;
+    border: 1px solid black;
   }
   body main #Work h1 {
     font-size: 0.6em;
