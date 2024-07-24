@@ -613,7 +613,7 @@ main #Skills article aside ul li div:hover {
     font-size: 0.8em;
   }
   body main #Work {
-    width: 80%;
+    width: 70%;
   }
   body main #Work h1 {
     font-size: 0.6em;
@@ -621,7 +621,6 @@ main #Skills article aside ul li div:hover {
   body .WorkSkill {
     font-size: 0.2em;
     font-weight: bold;
-    width: 80%;
   }
   body .WorkSkill div {
     display: flex;
@@ -700,8 +699,9 @@ main #Skills article aside ul li div:hover {
     font-size: 0.8em;
   }
   body main #Work {
-    width: 70%;
+    width: 100%;
     padding: 0;
+    border: 1px solid black;
   }
   body main #Work h1 {
     font-size: 0.6em;
@@ -709,7 +709,6 @@ main #Skills article aside ul li div:hover {
   body .WorkSkill {
     font-size: 0.2em;
     font-weight: bold;
-    width: 80%;
     padding: 0;
   }
   body .WorkSkill div {
