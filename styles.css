@@ -604,7 +604,7 @@ main #Skills article aside ul li div:hover {
     font-size: 0.5em;
   }
   body main #Skills .duration {
-    font-size: small;
+    font-size: 0.2em;
   }
   body main .details .name h2 {
     font-size: 0.2em;
@@ -618,11 +618,11 @@ main #Skills article aside ul li div:hover {
   body main #Work h1 {
     font-size: 0.6em;
   }
-  body .WorkSkill {
+  body main #Work .WorkSkill {
     font-size: 0.2em;
     font-weight: bold;
   }
-  body .WorkSkill div {
+  body main #Work .WorkSkill div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -634,11 +634,11 @@ main #Skills article aside ul li div:hover {
     color: white;
     border: 0px;
     padding: 10px;
-    font-size: 0.8em;
+    font-size: 0.2em;
     text-wrap: nowrap;
     margin: 1px;
   }
-  body .WorkSkill div a {
+  body main #Work .WorkSkill div a {
     color: white;
     text-decoration: none;
   }
@@ -687,7 +687,7 @@ main #Skills article aside ul li div:hover {
     font-size: 0.5em;
   }
   body main #Skills .duration {
-    font-size: small;
+    font-size: 0.2em;
   }
   body main .details p {
     font-size: 0.6em;
@@ -700,16 +700,15 @@ main #Skills article aside ul li div:hover {
   }
   body main #Work {
     width: 80%;
-    border: 1px solid black;
   }
   body main #Work h1 {
     font-size: 0.6em;
   }
-  body .WorkSkill {
+  body main #Work .WorkSkill {
     font-size: 0.2em;
     font-weight: bold;
   }
-  body .WorkSkill div {
+  body main #Work .WorkSkill div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -720,11 +719,11 @@ main #Skills article aside ul li div:hover {
     background-color: #534666;
     color: white;
     border: 0px;
-    font-size: 0.8em;
+    font-size: 0.2em;
     text-wrap: nowrap;
     margin: 1px;
   }
-  body .WorkSkill div a {
+  body main #Work .WorkSkill div a {
     color: white;
     text-decoration: none;
   }
