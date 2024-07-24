@@ -46,6 +46,83 @@ body {
     font-size: 1.2em;
   }
 }
+@media only screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+  body nav aside {
+    font-size: 0.2em;
+  }
+  body main #About article .contactdetails li {
+    padding: 0;
+    font-size: 12px;
+  }
+  body main #About article .contactdetails li a {
+    display: none;
+  }
+  body main #About article h1 {
+    font-size: 0.2em;
+  }
+  body main #About article h1 .Resume {
+    display: none;
+  }
+  body main #About article p {
+    font-size: 0.2em;
+  }
+  body main #About article .attach {
+    padding: 5px;
+  }
+  body main #About article .attach1 {
+    padding: 5px;
+  }
+  body main #About article .attach2 {
+    padding: 5px;
+    display: none;
+  }
+  body main #Skills .heading {
+    font-size: 0.5em;
+  }
+  body main #Skills .duration {
+    font-size: small;
+  }
+  body main .details p {
+    font-size: 0.6em;
+  }
+  body main .details .name h2 {
+    font-size: 0.2em;
+  }
+  body main .details h4 {
+    font-size: 0.6em;
+  }
+  body main #Work h1 {
+    font-size: 1.2em;
+  }
+  body .WorkSkill {
+    font-size: 0.2em;
+    font-weight: bold;
+    width: 80%;
+  }
+  body .WorkSkill div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: #534666;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    font-size: 0.8em;
+    text-wrap: nowrap;
+    margin: 1px;
+  }
+  body .WorkSkill div a {
+    color: white;
+    text-decoration: none;
+  }
+}
 nav {
   padding: 10px;
   display: flex;
@@ -443,6 +520,211 @@ main #Skills article aside ul li div:hover {
     margin: 1px;
   }
   .WorkSkill div a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  body nav aside {
+    font-size: 0.2em;
+  }
+  body main #About article .contactdetails li {
+    padding: 0;
+    font-size: 12px;
+  }
+  body main #About article .contactdetails li a {
+    display: none;
+  }
+  body main #About article h1 {
+    font-size: 0.6em;
+  }
+  body main #About article h1 .Resume {
+    display: none;
+  }
+  body main #About article p {
+    font-size: 0.2em;
+  }
+  body main #About article .attach {
+    padding: 5px;
+  }
+  body main #About article .attach1 {
+    padding: 5px;
+  }
+  body main #About article .attach2 {
+    padding: 5px;
+    display: none;
+  }
+  body main #About article .attach {
+    position: absolute;
+    left: 15%;
+    top: 100%;
+    border-radius: 120px;
+    -webkit-clip-path: circle();
+            clip-path: circle();
+    padding: 10px;
+    background-color: #534666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1em;
+  }
+  body main #About article .attach:hover {
+    transform: scale(1.2);
+  }
+  body main #About article .attach1 {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    border-radius: 120px;
+    -webkit-clip-path: circle();
+            clip-path: circle();
+    padding: 10px;
+    background-color: #534666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1em;
+  }
+  body main #About article .attach1:hover {
+    transform: scale(1.2);
+  }
+  body main #About .contactdetails ul li {
+    font-size: 10px;
+    padding: 5px;
+  }
+  body main #Skills li {
+    font-size: 0.2em;
+  }
+  body main #Skills .heading {
+    font-size: 0.5em;
+  }
+  body main #Skills .duration {
+    font-size: small;
+  }
+  body main .details .name h2 {
+    font-size: 0.2em;
+  }
+  body main .details h4 {
+    font-size: 0.8em;
+  }
+  body main #Work {
+    width: 80%;
+  }
+  body main #Work h1 {
+    font-size: 0.6em;
+  }
+  body .WorkSkill {
+    font-size: 0.2em;
+    font-weight: bold;
+    width: 80%;
+  }
+  body .WorkSkill div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: #534666;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    font-size: 0.8em;
+    text-wrap: nowrap;
+    margin: 1px;
+  }
+  body .WorkSkill div a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 350px) {
+  body {
+    overflow-x: hidden;
+  }
+  body nav aside {
+    font-size: 0.2em;
+  }
+  body main #About article .contactdetails li {
+    padding: 0;
+    font-size: 12px;
+  }
+  body main #About article .contactdetails li a {
+    display: none;
+  }
+  body main #About article .contactdetails ul li {
+    font-size: 10px;
+    padding: 5px;
+  }
+  body main #About article h1 {
+    font-size: 0.6em;
+  }
+  body main #About article h1 .Resume {
+    display: none;
+  }
+  body main #About article p {
+    font-size: 0.2em;
+  }
+  body main #About article .attach {
+    padding: 5px;
+  }
+  body main #About article .attach1 {
+    padding: 5px;
+  }
+  body main #About article .attach2 {
+    padding: 5px;
+    display: none;
+  }
+  body main #Skills li {
+    font-size: 0.2em;
+  }
+  body main #Skills .heading {
+    font-size: 0.5em;
+  }
+  body main #Skills .duration {
+    font-size: small;
+  }
+  body main .details .name h2 {
+    font-size: 0.2em;
+  }
+  body main .details h4 {
+    font-size: 0.8em;
+  }
+  body main #Work {
+    width: 100%;
+    padding: 0;
+  }
+  body main #Work h1 {
+    font-size: 0.6em;
+  }
+  body .WorkSkill {
+    font-size: 0.2em;
+    font-weight: bold;
+    width: 80%;
+    padding: 0;
+  }
+  body .WorkSkill div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: #534666;
+    color: white;
+    border: 0px;
+    font-size: 0.8em;
+    text-wrap: nowrap;
+    margin: 1px;
+  }
+  body .WorkSkill div a {
     color: white;
     text-decoration: none;
   }
