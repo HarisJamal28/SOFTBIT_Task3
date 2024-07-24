@@ -708,7 +708,6 @@ main #Skills article aside ul li div:hover {
   body .WorkSkill {
     font-size: 0.2em;
     font-weight: bold;
-    padding: 0;
   }
   body .WorkSkill div {
     display: flex;
